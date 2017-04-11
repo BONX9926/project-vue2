@@ -11,7 +11,7 @@
 
       <b-nav is-nav-bar>
         <!-- <b-nav-item to="/">หน้าแรก</b-nav-item> -->
-        <b-nav-item to="about" class="font-w">เกี่ยวกับเรา</b-nav-item>
+        <!-- <b-nav-item to="about" class="font-w">เกี่ยวกับเรา</b-nav-item> -->
         <b-nav-item to="service" class="font-w">บริการของเรา</b-nav-item>
       </b-nav>
 
@@ -28,7 +28,7 @@
           <b-dropdown-item to="#">FA</b-dropdown-item>
         </b-nav-item-dropdown> -->
 
-        <b-nav-item-dropdown right-alignment>
+        <b-nav-item-dropdown right-alignment v-if="status">
 
           <!-- Using text slot -->
           <template slot="text">
