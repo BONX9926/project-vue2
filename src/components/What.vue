@@ -1,0 +1,38 @@
+<template lang="html">
+  <div class="what">
+    <div class="row" style="background-color: #BBDEFB;">
+    <h1 align="center">ทำไมต้องใช้บริการเรา</h1>
+    <div class="col-md-4">
+    <h2 align="center"><img src="./image/maid.png"></h2>
+    <p>
+    <h2 align="center">แม่บ้านที่เชื่อถือได้</h2>
+    <p id="pd" align="center">เรามีการตรวจสอบประวัติ และคัดกรองแม่บ้านเพื่อให้มั่นใจได้ว่า พวกเขามีประสบการณ์ และพร้อมดูแลจัดการที่พักของคุณให้ได้ตามมาตรฐาน</p>
+    </p>
+    </div>
+    <div class="col-md-4">
+    <h2 align="center"><img src="./image/calendar.png"></h2>
+    <p>
+    <h2 align="center">ทำความสะอาดตามนัดหมาย</h2>
+    <p id="pd" align="center">แม่บ้านจะไปทำความสะอาดตาม ที่ผู้ใช้ได้ทำการจองไว้ในวันและเวลาตามที่กำหนด</p>
+    </p>
+    </div>
+    <div class="col-md-4">
+    <h2 align="center"><img src="./image/cleaner.png"></h2>
+    <p>
+    <h2 align="center">ไว้ใจเรื่องความสะอาด</h2>
+    <p id="pd" align="center">แม่บ้านของเราได้ผ่านการฝึกและอบรมการทำความสะอาดให้ถูกวิธี ตามมาตราฐานของบริษัทแล้วทุกคนจึงมั่นใจได้ว่า จะไม่ทำให้คุณผิดหวัง</p>
+    </p>
+    </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'what'
+}
+</script>
+
+<style lang="css">
+
+</style>

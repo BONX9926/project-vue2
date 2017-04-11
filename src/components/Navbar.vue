@@ -1,5 +1,5 @@
 <template lang="html">
-  <b-navbar toggleable type="inverse" variant="success">
+  <b-navbar toggleable type="inverse" variant="" class="bg-nav">
 
     <b-nav-toggle target="nav_collapse"></b-nav-toggle>
 
@@ -11,14 +11,14 @@
 
       <b-nav is-nav-bar>
         <!-- <b-nav-item to="/">หน้าแรก</b-nav-item> -->
-        <b-nav-item to="about">เกี่ยวกับเรา</b-nav-item>
-        <b-nav-item to="service">บริการของเรา</b-nav-item>
+        <b-nav-item to="about" class="font-w">เกี่ยวกับเรา</b-nav-item>
+        <b-nav-item to="service" class="font-w">บริการของเรา</b-nav-item>
       </b-nav>
 
       <b-nav is-nav-bar class="ml-auto">
 
         <b-nav is-nav-bar>
-          <b-nav-item to="/login">เข้าสู่ระบบ/สมัครสมาชิก</b-nav-item>
+          <b-nav-item to="login" class="font-w">เข้าสู่ระบบ/สมัครสมาชิก</b-nav-item>
         </b-nav>
         <!-- Navbar dropdowns -->
         <!-- <b-nav-item-dropdown text="เข้าสู่ระบบ/สมัครสมาชิก" right-alignment>
@@ -32,7 +32,7 @@
 
           <!-- Using text slot -->
           <template slot="text">
-            <span style="font-weight: bold;">User</span>
+            <span  class="font-w">User</span>
           </template>
 
           <b-dropdown-item to="#">Profile</b-dropdown-item>
@@ -51,5 +51,10 @@ export default {
 </script>
 
 <style lang="css">
-
+  .bg-nav {
+    background-color: #4286f4;
+  }
+  .font-w {
+    font-weight: bold;
+  }
 </style>
