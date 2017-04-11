@@ -32,7 +32,7 @@
 
           <!-- Using text slot -->
           <template slot="text">
-            <span  class="font-w">User</span>
+            <span class="font-w">User</span>
           </template>
 
           <b-dropdown-item to="#">Profile</b-dropdown-item>
